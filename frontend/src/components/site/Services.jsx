@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import * as Lucide from "lucide-react";
+import { Link } from "react-router-dom";
 import { SERVICES } from "../../lib/site";
 
 const Icon = ({ name, ...props }) => {
@@ -52,9 +53,12 @@ export const Services = () => {
               </div>
               <h3 className="font-display text-xl font-semibold">{s.title}</h3>
               <p className="mt-2 text-sm text-muted leading-relaxed">{s.desc}</p>
-              <div className="mt-6 inline-flex items-center gap-1.5 text-[12px] font-semibold text-ink/70 group-hover:text-[#FF8A00] transition-colors">
-                Learn more <Lucide.ArrowUpRight size={13} />
-              </div>
+              <Link
+                to={s.link}
+                className="mt-6 inline-flex items-center gap-1.5 text-[12px] font-semibold text-ink/70 group-hover:text-[#FF8A00] transition-colors"
+              >
+                Learn More <Lucide.ArrowUpRight size={13} />
+              </Link>
             </motion.article>
           ))}
         </div>

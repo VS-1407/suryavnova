@@ -30,56 +30,65 @@ export const SERVICES = [
   {
     icon: "Palette",
     title: "Website Design",
-    desc: "Premium interfaces engineered to convert. Pixel-precise, brand-aligned, accessible.",
+    desc: "Premium interfaces engineered to convert.",
+    link: "/website-design",
   },
   {
     icon: "Code2",
     title: "Web Development",
-    desc: "Fast, scalable web apps built on modern stacks — React, Next.js, FastAPI, Mongo.",
+    desc: "Fast, scalable web apps built on modern stacks.",
+    link: "/web-development",
   },
   {
     icon: "Sparkles",
     title: "AI Solutions",
-    desc: "LLM-powered assistants, copilots and intelligent search tailored to your business.",
+    desc: "LLM-powered assistants and intelligent search.",
+    link: "/ai-solutions",
   },
   {
     icon: "Workflow",
     title: "Automation Systems",
-    desc: "End-to-end workflows that remove busywork — n8n, Zapier, custom scripts, agents.",
+    desc: "End-to-end workflow automation.",
+    link: "/automation-systems",
   },
   {
     icon: "Gem",
     title: "Brand Identity",
-    desc: "Logos, design systems and brand voice that signal premium and earn trust.",
+    desc: "Logos and design systems.",
+    link: "/brand-identity",
   },
   {
     icon: "Search",
     title: "SEO Optimization",
-    desc: "Technical SEO, schema, content systems — built to rank and built to last.",
+    desc: "Technical SEO and content systems.",
+    link: "/seo-optimization",
   },
   {
     icon: "ShoppingBag",
     title: "E-Commerce Development",
-    desc: "Conversion-tuned storefronts with seamless checkout and inventory automation.",
+    desc: "Conversion-focused online stores.",
+    link: "/ecommerce-development",
   },
 ];
 
 export const WORK = [
   {
-    title: "VS Cafe — QR Ordering System",
+    title: "VSPortfolio",
     tag: "F&B · SaaS",
     stack: ["React", "FastAPI", "MongoDB", "Stripe"],
     results: ["+38% avg order value", "12s order time", "Zero waiter dependency"],
     accent: "from-[#FF8A00] to-[#FFC857]",
     hue: "#FF8A00",
+    url: "https://vs-1407.github.io/VSPortfolio/"
   },
   {
-    title: "AI Attendance System",
+    title: "The Serentique",
     tag: "Enterprise · AI",
-    stack: ["Computer Vision", "Python", "Next.js"],
+    stack: ["Computer Vision", "Html", "Java"],
     results: ["99.2% face accuracy", "30s setup", "Realtime dashboard"],
     accent: "from-[#111] to-[#444]",
     hue: "#111111",
+    url: "https://vs-1407.github.io/theserentique/"
   },
   {
     title: "IPL Analytics Dashboard",
@@ -88,6 +97,8 @@ export const WORK = [
     results: ["6M+ rows", "Live predictions", "Sub-200ms render"],
     accent: "from-[#FFC857] to-[#FF8A00]",
     hue: "#FFC857",
+    url: "https://iplpredictor-msmectgqblg7yhjxydzdpr.streamlit.app/"
+
   },
 ];
 

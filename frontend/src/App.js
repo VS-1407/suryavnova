@@ -16,11 +16,20 @@ import { Contact } from "./components/site/Contact";
 import { Footer } from "./components/site/Footer";
 import { WhatsAppButton } from "./components/site/WhatsAppButton";
 import { Loader } from "./components/site/Loader";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import WebsiteDesign from "./pages/WebsiteDesign";
+import WebDevelopment from "./pages/WebDevelopment";
+import AISolutions from "./pages/AISolutions";
+import AutomationSystems from "./pages/AutomationSystems";
+import BrandIdentity from "./pages/BrandIdentity";
+import SEOOptimization from "./pages/SEOOptimization";
+import EcommerceDevelopment from "./pages/EcommerceDevelopment";
 
-function App() {
+
+function Home() {
   return (
     <div className="App" data-testid="app-root">
-      <Loader />
+      {/* <Loader /> */}
       <Navbar />
 
       <main>
@@ -42,5 +51,19 @@ function App() {
     </div>
   );
 }
-
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/website-design" element={<WebsiteDesign />} />
+      <Route path="/web-development" element={<WebDevelopment />} />
+      <Route path="/ai-solutions" element={<AISolutions />} />
+      <Route path="/automation-systems" element={<AutomationSystems />} />
+      <Route path="/brand-identity" element={<BrandIdentity />} />
+      <Route path="/seo-optimization" element={<SEOOptimization />} />
+      <Route path="/ecommerce-development" element={<EcommerceDevelopment />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}

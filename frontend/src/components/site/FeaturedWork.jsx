@@ -59,12 +59,14 @@ const Card = ({ item, i }) => {
           ))}
         </ul>
         <a
-          href="#contact"
-          data-testid={`work-view-${i}`}
-          className="mt-6 inline-flex items-center gap-1.5 text-[13px] font-semibold text-ink hover:text-[#FF8A00] transition-colors"
-        >
-          View Project <ArrowUpRight size={14} />
-        </a>
+      href={item.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      data-testid={`work-view-${i}`}
+      className="mt-6 inline-flex items-center gap-1.5 text-[13px] font-semibold text-ink hover:text-[#FF8A00] transition-colors"
+>
+      View Project <ArrowUpRight size={14} />
+      </a>
       </div>
     </motion.div>
   );

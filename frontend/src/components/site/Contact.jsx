@@ -4,7 +4,7 @@ import { Mail, MessageCircle, Send, ArrowUpRight } from "lucide-react";
 import { toast } from "sonner";
 import { BRAND } from "../../lib/site";
 
-const BUDGETS = ["< ₹50k", "₹50k – ₹1.5L", "₹1.5L – ₹5L", "₹5L+"];
+const BUDGETS = ["< ₹10k", "₹10k – ₹50k", "₹50K – ₹1L", "₹1L+"];
 
 export const Contact = () => {
   const [form, setForm] = useState({

@@ -4,7 +4,7 @@ export const LOGO_URL =
 export const BRAND = {
   name: "SURYANOVA",
   tagline: "Creating Impact. Delivering Excellence.",
-  email: "hello@suryanova.co.in",
+  email: "hello.suryanova@gmail.com",
   whatsapp: "+917060492095",
   whatsappDisplay: "+91 7060492095",
   linkedin: "https://www.linkedin.com/in/vaibhav-suryavanshi-7788852ab/",

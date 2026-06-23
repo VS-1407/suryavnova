@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { Instagram } from "lucide-react";
 import { Logo } from "./Logo";
 import { BRAND, NAV } from "../../lib/site";
 
@@ -58,22 +59,22 @@ export const Footer = () => {
                 <Linkedin size={15} />
               </a>
               <a
-                href={BRAND.github}
-                target="_blank"
-                rel="noreferrer"
-                data-testid="footer-github"
-                aria-label="GitHub"
-                className="w-10 h-10 grid place-items-center rounded-full border border-line bg-white hover:border-[#FF8A00] hover:text-[#FF8A00] transition"
-              >
-                <Github size={15} />
-              </a>
-              <a
                 href={`mailto:${BRAND.email}`}
                 data-testid="footer-email"
                 aria-label="Email"
                 className="w-10 h-10 grid place-items-center rounded-full border border-line bg-white hover:border-[#FF8A00] hover:text-[#FF8A00] transition"
               >
                 <Mail size={15} />
+              </a>
+              <a
+                href={BRAND.insta}
+                target="_blank"
+                rel="noreferrer"
+                data-testid="footer-instagram"
+                aria-label="Instagram"
+                className="w-10 h-10 grid place-items-center rounded-full border border-line bg-white hover:border-[#FF8A00] hover:text-[#FF8A00] transition"
+              >
+                <Instagram size={15} />
               </a>
             </div>
           </div>

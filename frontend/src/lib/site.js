@@ -7,8 +7,13 @@ export const BRAND = {
   email: "hello.suryanova@gmail.com",
   whatsapp: "+917060492095",
   whatsappDisplay: "+91 7060492095",
-  linkedin: "https://www.linkedin.com/in/vaibhav-suryavanshi-7788852ab/",
+  linkedin: "https://www.linkedin.com/in/surya-nova-92b157419/",
+  linkedinFounder: "https://www.linkedin.com/in/vaibhav-suryavanshi-7788852ab/",
+  linkedinCoFounder: "https://www.linkedin.com/in/bhavya-dua-388a03368/",
   github: "https://github.com/VS-1407",
+  githubFounder: "https://github.com/VS-1407",
+  githubCoFounder: "https://github.com/bhavyaduaaa",
+  insta: "https://www.instagram.com/suryanova.web/"                                     
 };
 
 export const NAV = [

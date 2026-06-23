@@ -34,7 +34,7 @@ export const Contact = () => {
       `Project details:`,
       form.details,
     ].join(" ");
-    const wa = `https://wa.me/${BRAND.whatsapp.replace(/\D/g, " ")}?text=${encodeURIComponent(lines)}`;
+const wa = `https://wa.me/917060492095?text=${encodeURIComponent(lines)}`;
     window.open(wa, "_blank", "noopener,noreferrer");
     toast.success("Opening WhatsApp with your project brief…");
   };
@@ -92,7 +92,7 @@ ${form.details}`;
               </a>
 
               <a
-                href={`https://wa.me/${BRAND.whatsapp.replace(/\D/g, " ")}`}
+                href="https://wa.me/917060492095"
                 target="_blank"
                 rel="noreferrer"
                 data-testid="contact-whatsapp"
